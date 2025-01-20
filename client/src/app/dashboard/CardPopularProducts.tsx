@@ -28,7 +28,7 @@ const CardPopularProducts = () => {
                     // src={`https://s3-inventorydashboard.s3.us-east-2.amazonaws.com/product${
                     //   Math.floor(Math.random() * 3) + 1
                     // }.png`}
-                    src="https://s3-inventorydashboard.s3.us-east-2.amazonaws.com/product1.png"
+                    src="https://s3-inventorydashboard.s3.eu-west-2.amazonaws.com/product2.png"
                     alt={product.name}
                     width={48}
                     height={48}
