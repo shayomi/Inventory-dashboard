@@ -40,7 +40,7 @@ AWS account
 **Local Development Setup**
 
 Clone the repository:
-git clone https://github.com/yourusername/legion-inventory-dashboard.git
+git clone (https://github.com/shayomi/Inventory-dashboard.git
 cd legion-inventory-dashboard
 
 Install dependencies:
@@ -81,102 +81,81 @@ npm run dev
 
 Access the app locally at http://localhost:3000.
 
-Deployment
+**Deployment**
 
 AWS Services Used
 
-Frontend:
+**Frontend:**
 
 Deployed via AWS Amplify for automatic builds and hosting.
 
-Backend:
+**Backend:**
 
 Hosted on an AWS EC2 instance for complete control over server configurations.
 
-Storage:
+**Storage:**
 
 AWS S3 for storing static assets (e.g., images, documents).
 
-Deployment Steps
+**Deployment Steps**
 
-Frontend Deployment (AWS Amplify):
+**Frontend Deployment (AWS Amplify):**
 
 Connect your GitHub repository to AWS Amplify.
-
 Configure build settings (defaults are usually sufficient for Next.js).
-
 Deploy and monitor the app via the Amplify console.
 
-Backend Deployment (AWS EC2):
+**Backend Deployment (AWS EC2):**
 
 SSH into your EC2 instance.
-
 Clone the repository and navigate to the backend directory.
-
 Install dependencies and start the server:
 
 npm install
 pm2 start server.js
 
-Configure AWS S3:
+**Configure AWS S3:**
 
 Upload your assets to the S3 bucket.
-
 Ensure proper bucket policies and permissions are set for public access.
 
-Usage
+**Usage**
 
 Log In: Use your credentials to access the dashboard.
-
 Manage Inventory: Add, update, or delete sneaker products.
-
 View Analytics: Use the dashboard’s visual tools to track inventory trends.
-
 Upload Images: Upload sneaker images to AWS S3 for each product.
 
-Screenshots
+**Screenshots**
 
 Add screenshots of your application (dashboard, product page, etc.) for better visualization.
 
-Contributing
+**Contributing**
 
 Contributions are welcome! Follow these steps to contribute:
-
 Fork the repository.
-
 Create a new branch:
-
 git checkout -b feature-name
-
 Make your changes and commit them:
-
 git commit -m "Added feature-name"
-
 Push to the branch:
-
 git push origin feature-name
-
 Open a pull request.
 
 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Acknowledgements
+**Acknowledgements**
 
 AWS for reliable cloud services.
-
 Next.js and Node.js for powering the app.
-
 Tailwind CSS for styling.
-
 All contributors and collaborators.
 
-Contact
+**Contact**
 
 For any questions or feedback, feel free to reach out:
-
-Email: yourname@example.com
-
-GitHub: yourusername
+Email: steve.legion94@gmail.com
+GitHub: [shayomi](https://github.com/shayomi/Inventory-dashboard/
 
